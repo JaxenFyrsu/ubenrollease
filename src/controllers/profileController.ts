@@ -1,6 +1,5 @@
 import { Request, Response } from 'express';
 import { query } from '../config/db.js';
-import { error } from 'console';
 
 export class ProfileController {
     // Fetch profile data for the logged-in user
